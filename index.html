@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🏢 Digital Facilitation Center💼</title>
+
+  <style>
+    * {margin:0;padding:0;box-sizing:border-box;}
+    body {font-family: 'Segoe UI', sans-serif;background:#f4f6f9;}
+
+    header {
+      background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+      color:white;
+      padding:25px;
+      text-align:center;
+      font-size:30px;
+      font-weight:bold;
+      letter-spacing:1px;
+      box-shadow:0 4px 15px rgba(0,0,0,0.3);
+    }
+
+    nav {
+      display:flex;
+      justify-content:center;
+      background:#222;
+      flex-wrap:wrap;
+    }
+
+    nav a {
+      color:white;
+      padding:12px 18px;
+      text-decoration:none;
+      transition:0.3s;
+    }
+
+    nav a:hover {
+      background:#00c6ff;
+      color:black;
+      border-radius:5px;
+    }
+
+    .section {
+      padding:50px 20px;
+      text-align:center;
+    }
+
+    /* Unique Section Colors */
+    #services { background: linear-gradient(135deg,#dfe9f3,#ffffff); }
+    #cosmetics { background: linear-gradient(135deg,#ffe0ec,#fff5f9); }
+    #stationary { background: linear-gradient(135deg,#e0f7fa,#f1fdff); }
+    #snacks { background: linear-gradient(135deg,#fff3cd,#fff9e6); }
+    #kiryana { background: linear-gradient(135deg,#e8f5e9,#f4fff5); }
+
+    .section h2 {
+      margin-bottom:20px;
+      font-size:26px;
+      color:#2a5298;
+    }
+
+    .cards {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    .card {
+      background:white;
+      padding:20px;
+      border-radius:15px;
+      box-shadow:0 6px 15px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .card:hover {
+      transform:translateY(-10px) scale(1.03);
+      box-shadow:0 12px 30px rgba(0,0,0,0.25);
+    }
+
+    .card h3 {
+      margin-bottom:10px;
+      color:#333;
+    }
+
+    .card p {
+      font-size:14px;
+      color:#555;
+      line-height:1.6;
+    }
+
+    footer {
+      background:#1e3c72;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:30px;
+    }
+
+    .btn {
+      display:inline-block;
+      margin-top:10px;
+      padding:8px 15px;
+      background:#2a5298;
+      color:white;
+      border-radius:20px;
+      text-decoration:none;
+      transition:0.3s;
+    }
+
+    .btn:hover {
+      background:#00c6ff;
+      color:black;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  Digital Facilitation Center
+</header>
+
+<nav>
+  <a href="#services">Services</a>
+  <a href="#cosmetics">Cosmetics</a>
+  <a href="#stationary">Stationary</a>
+  <a href="#snacks">Snacks</a>
+  <a href="#kiryana">Kiryana</a>
+</nav>
+
+<section id="services" class="section">
+  <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:20px;">
+    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" alt="services" style="width:250px;max-width:100%;">
+    <div style="flex:1;min-width:300px;">
+  <h2>💻 Online Services</h2>
+  <div class="cards">
+
+    <div class="card">
+      <h3>🆔 Aadhar • PAN • Passport</h3>
+      <p>✔ Aadhar Update & Print<br>✔ PAN Card Services<br>✔ Passport Apply & Renewal</p>
+      <a href="#" class="btn">Explore</a>
+    </div>
+
+    <div class="card">
+      <h3>💡 Bill Payments</h3>
+      <p>✔ JKPDD Electricity Bills<br>✔ JKPHE Water Bills<br>✔ New Connections Available</p>
+      <a href="#" class="btn">Pay Now</a>
+    </div>
+
+    <div class="card">
+      <h3>📄 Govt Job Applications</h3>
+      <p>✔ JKSSB • JKPSC • JKBANK<br>✔ SSC • UPSC • RRB<br>✔ Fast & Accurate Form Filling</p>
+      <a href="#" class="btn">Apply Now</a>
+    </div>
+
+    <div class="card">
+      <h3>🖨️ Printing Services</h3>
+      <p>✔ Xerox & Photocopy<br>✔ Lamination Services<br>✔ HD Laser Printing</p>
+      <a href="#" class="btn">Get Service</a>
+    </div>
+
+  </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</section>
+
+<section id="cosmetics" class="section">
+  <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:20px;">
+    <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348" alt="cosmetics" style="width:250px;max-width:100%;">
+    <div style="flex:1;min-width:300px;">
+  <h2>🧴✨ Cosmetic Products</h2>
+  <div class="cards">
+
+    <div class="card">
+      <h3>💇 Hair Care</h3>
+      <p>✔ All Types of Shampoo<br>✔ Hair Oils for Daily Use</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <h3>💄 Beauty</h3>
+      <p>✔ Perfumes & Fragrances<br>✔ Sunscreens & Creams</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <h3>🧼 Daily Use</h3>
+      <p>✔ Soaps & Body Care<br>✔ Toothpaste & Brushes</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <h3>🧦 Socks Collection</h3>
+      <p>✔ Men, Women & Kids Socks<br>✔ Comfortable & Winter Wear</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+  </div>
+    </div>
+  </div>
+</section>
+
+<section id="stationary" class="section">
+  <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:20px;">
+    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350" alt="stationary" style="width:250px;max-width:100%;">
+    <div style="flex:1;min-width:300px;">
+  <h2>📚 Stationary</h2>
+  <div class="cards">
+
+    <div class="card">
+      <h3>✍️ Writing</h3>
+      <p>✔ Pens, Pencils & Markers<br>✔ High Quality Supplies</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <h3>📒 Paper</h3>
+      <p>✔ Notebooks & Notes<br>✔ School & Office Use</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <h3>📂 Files</h3>
+      <p>✔ Folders & Documents<br>✔ Office Essentials</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+  </div>
+    </div>
+  </div>
+</section>
+
+<section id="snacks" class="section">
+  <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:20px;">
+    <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="snacks" style="width:250px;max-width:100%;">
+    <div style="flex:1;min-width:300px;">
+  <h2>🍫 Snacks & Drinks</h2>
+  <div class="cards">
+
+    <div class="card">
+      <h3>🍫 Chocolates</h3>
+      <p>✔ Dairy Milk, KitKat, 5 Star<br>✔ Sweet Treats</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <h3>🍪 Biscuits</h3>
+      <p>✔ Parle-G, Oreo, Bourbon<br>✔ Daily Snacks</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <h3>🥔 Chips</h3>
+      <p>✔ Lay's, Kurkure, Bingo<br>✔ Crunchy Snacks</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <h3>🥤 Drinks</h3>
+      <p>✔ Tea, Coffee & Cold Drinks<br>✔ Refresh Yourself</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+  </div>
+    </div>
+  </div>
+</section>
+
+<section id="kiryana" class="section">
+  <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:20px;">
+    <img src="https://images.unsplash.com/photo-1604335399105-a0c585fd81a1" alt="detergent" style="width:250px;max-width:100%;border-radius:15px;box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+    <div style="flex:1;min-width:300px;">
+    <div style="flex:1;min-width:300px;">
+  <h2>🛒 Kiryana</h2>
+  <div class="cards">
+
+    <div class="card">
+      <h3>🧼 Soaps</h3>
+      <p>✔ Lux, Lifebuoy, Dove<br>✔ Daily Hygiene Products</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <h3>🧺 Detergents</h3>
+      <p>✔ Surf Excel, Ariel, Tide<br>✔ Powerful Cleaning</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <h3>🧽 Cleaning</h3>
+      <p>✔ Vim, Phenyl, Toilet Cleaner<br>✔ Home Care Essentials</p>
+      <a href="#" target="_blank" class="btn">Buy Now</a>
+    </div>
+
+  </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>📞 Phone: +91 9797215363</p>
+  <p>📧 Email: umariqbal140@gmail.com</p>
+  <p>📍 Address: Fatehgarh Baramulla, Jammu & Kashmir - 193101</p>
+  <P>Manager ! Sheikh Saqib</P>
+  <p>© Mohammad Umar Bi-Developer | Designed Professionally</p>
+</footer>
+
+</body>
+</html>
